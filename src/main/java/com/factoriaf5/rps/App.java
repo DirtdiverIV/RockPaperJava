@@ -1,9 +1,10 @@
 package com.factoriaf5.rps;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import com.factoriaf5.rps.application.Game;
+
+public class App {
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.play();
     }
 }
