@@ -9,6 +9,6 @@ public class Paper implements GameOption {
 
     @Override
     public boolean beats(GameOption other) {
-        return other instanceof Rock;
+        return other instanceof Rock || other instanceof Spock;
     }
 }
